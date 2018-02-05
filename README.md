@@ -11,17 +11,17 @@ OS X
 **2.** If you use MacVim, add the following line to your `vimrc`:
 
 ```
-set guifont=Menlo\ for\ Powerline
+set guifont=Menlo\ For\ Powerline
 ```
 
-**3.** For use with Terminal.app or iTerm, change your settings according. You should select your font as `Menlo for Powerline`.
+**3.** For use with Terminal.app or iTerm, change your settings according. You should select your font as `Menlo For Powerline`.
 
 **4.** Enjoy!
 
 Linux
 -----
 
-**1.** Copy `Menlo for Powerline.ttf` into your `~/.fonts` directory. (Or any X font directory)
+**1.** Copy `Menlo For Powerline.ttf` into your `~/.fonts` directory. (Or any X font directory)
 ```
 $ cp "Menlo For Powerline.ttf" ~/.local/share/fonts
 ```
