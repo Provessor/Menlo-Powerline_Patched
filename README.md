@@ -37,8 +37,21 @@ If you're in a terminal, you may or may not need to restart all windows before c
 ``` .vimrc
 set guifont=Menlo\ For\ Powerline
 ```
+**4.** For use with the terminal, change your settings according.
 
-**4.** If you use airline, add the following lines to your `vimrc`:
+**5.** Enjoy!
+
+
+Bold, Italic, Bold Italic
+-------------------------
+
+As far as I know, these extra font styles should work. I've had absolutely not problems with them, however, you may run into an issue. I added them as to provide support for bold, italic, and bold italic fonts within the terminal. Please let me know if you have any issues.
+
+
+Airline/Powerline
+------------------------
+I have not tested this font with vanilla powerline, however, all the symbols work fine with the powerline oh-my-zsh theme.
+If you use airline, add the following to your `vimrc`:
 
 ``` .vimrc
 let g:airline_symbols = {}
@@ -55,19 +68,6 @@ let g:airline_symbols.crypt = ''
 let g:airline_symbols.paste = 'ρ'
 let g:airline_symbols.notexists = '∄'
 ```
-(Note: not all of these will be necessary on all systems).
+**NB:** Not all of these will be necessary on all systems
 
-**5.** For use with the terminal, change your settings according.
-
-**6.** Enjoy!
-
-
-Bold, Italic, Bold Italic
--------------------------
-
-As far as I know, these extra font styles should work. I've had absolutely not problems with them, however, you may run into an issue. I added them as to provide support for bold, italic, and bold italic fonts within the terminal. Please let me know if you have any issues.
-
-
-Powerline
-------------------------
-I have not tested this font with vanilla powerline, however, all the symbols work fine with the powerline oh-my-zsh theme.
+I do not know the process for vim powerline, however, it will be similar and the symbols should be the same.
