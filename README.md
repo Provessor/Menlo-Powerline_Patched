@@ -25,7 +25,7 @@ Linux
 
 **1.** Copy `Menlo for Powerline.ttf` into your `~/.fonts` directory. (Or any X font directory)
 ```
-$ cp "Menlo for Powerline.ttf" ~/.fonts
+$ cp "Menlo For Powerline.ttf" ~/.fonts
 ```
 
 **2.** Update your fonts cache.
@@ -36,16 +36,40 @@ If you're in a terminal, you may or may not need to restart all windows before c
 
 **3.** If you use gvim, add the following line to your `vimrc`:
 
-```
-set guifont=Menlo\ for\ Powerline
+``` .vimrc
+set guifont=Menlo\ For\ Powerline
 ```
 
-**4.** For use with the terminal, change your settings according.
+**4.** If you use airline, add the following lines to your `vimrc`:
 
-**5.** Enjoy!
+``` .vimrc
+let g:airline_symbols = {}
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_symbols.branch = ''
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = '☰'
+let g:airline_symbols.maxlinenr = ''
+let g:airline_symbols.whitespace = 'Ξ'
+let g:airline_symbols.crypt = ''
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.notexists = '∄'
+```
+(Note: not all of these will be necessary on all systems).
+
+**5.** For use with the terminal, change your settings according.
+
+**6.** Enjoy!
 
 
 Bold, Italic, Bold Italic
 -------------------------
 
 As far as I know, these extra font styles should work. I've had absolutely not problems with them, however, you may run into an issue. I added them as to provide support for bold, italic, and bold italic fonts within the terminal. Please let me know if you have any issues.
+
+
+Powerline
+------------------------
+I have not tested this font with vanilla powerline, however, all the symbols work fine with the powerline oh-my-zsh theme.
