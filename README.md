@@ -70,4 +70,4 @@ let g:airline_symbols.notexists = '∄'
 ```
 **NB:** Not all of these will be necessary on all systems
 
-I do not know the process for vim powerline, however, it will be similar and the symbols should be the same.
+I do not know if any of the symbols are missing for vim powerline, if they are, please let me know and I will add the fix here.
