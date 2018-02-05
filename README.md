@@ -21,7 +21,7 @@ set guifont=Menlo\ For\ Powerline
 Linux
 -----
 
-**1.** Copy `Menlo For Powerline.ttf` into your `~/.fonts` directory. (Or any X font directory)
+**1.** Copy `Menlo For Powerline.ttf` into your `~/.local/share/fonts` directory. (Or any X font directory)
 ```
 $ cp "Menlo For Powerline.ttf" ~/.local/share/fonts
 ```
